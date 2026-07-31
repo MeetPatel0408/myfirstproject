@@ -100,6 +100,8 @@ p{
     text-align:center;
     margin-top: 2em;
     margin-bottom: 3em;
+    max-width: 350px;
+    box-sizing: border-box;
     a{
         background-color: rgb(246, 186, 96);
         padding: 0.7em;
@@ -110,6 +112,8 @@ p{
     font-size:1.5em;
     font-family: inter ;
     margin-bottom: 4em;
+        text-align:center;
+        
     &:hover{
                 text-decoration: underline;
             }
