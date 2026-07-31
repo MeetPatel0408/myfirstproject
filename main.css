@@ -130,8 +130,8 @@ p{
     margin:2 auto;
     padding:0 2em;
    }
-    .search-bar a{
-        font-size=3em;
+    .search-bar{
+        a{font-size=3em;}
     }
         
    
