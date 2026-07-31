@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en>">
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width , initial-scale=1.0">
+            <title>EGO....!</title>
+            <link rel="stylesheet" href="main.css">
+    </head>
+<body>
+    <div class="wrap">
+    <header>
+        <div class="wrap2">
+        
+        <div class="header-left">
+            <a href="#">
+            <img src="logo.png" alt="amazon logo">
+        </a></div>
+
+        <nav>
+            <a href="#" class="menu-open">
+                  <img src="logo2.png" alt="menu">
+            </a>
+            <ul>
+                <li>
+                    <a href="#" class="menu-close">
+                        <img src ="crosslogo2.jpg" alt="exit">
+                    </a></li>
+                    <li><a href="#">Mobiles</a></li>
+                    <li><a href="#">Computers</a></li>
+                    <li><a href="#">Books</a></li>
+                    <li><a href="#">Amazon Fashion</a></li>
+                    <li><a href="#">See all Categories</a></li>
+                </li>
+            </ul>
+        </nav>
+        </div>
+       
+        <main>
+            <h1>
+                Want to BUY something.....?
+            </h1>
+            <p class="subhead">
+                ....Welcome to world's fisrt online selling platform.
+                Here you will see all the products which is being sold globally.
+                It's the world most trustable online flatform for buying
+                goods and electronics items. 
+
+            </p>
+            <div class="search-bar">
+            <a href="#">
+                Search here for Products...
+            </a>
+        </div>
+        <div class="wrap3">
+            <div class="phones">
+                <a href="#">
+                    <img src="images (1).jpg" alt="mobile phones">
+                </a>
+                </div>
+                <div class="computers">
+                <a href="#">
+                    <img src="images (2).jpg" alt="mobile phones">
+                </a>
+                </div>
+                </div>
+                <div class="wrap4">
+                <div class="clothes">
+                <a href="#">
+                    <img src="images (3).jpg" alt="mobile phones">
+                </a>
+                </div>
+                <div class="grains">
+                <a href="#">
+                    <img src="images (4).jpg" alt="mobile phones">
+                </a>
+                </div>
+                </div>
+
+        </main>
+        
+    </header>
+    </div>
+    <script>
+        const menu=document.querySelector('nav ul');
+        const menuBtn=document.querySelector('.menu-open');
+        const closeBtn=document.querySelector('.menu-close');
+
+        menuBtn.addEventListener('click', ()=> {
+            menu.classList.add('open')
+        })
+        closeBtn.addEventListener('click', ()=> {
+            menu.classList.remove('open')
+        })
+    </script>
+</body>
+</html>
